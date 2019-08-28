@@ -11,14 +11,14 @@ format context 格式化上下文，是w3c css2.1 规范中的一个概。它是
 那么，什么样的元素具有 BFC 属性呢？以下这些就是：
 
 - body 根元素就是一个具有 BFC 属性的元素。
-- 具有绝对定位多的元素，`display: absolue; display: fiexd;`	。
+- 具有绝对定位多的元素，`display: absolue; display: fixed;`	。
 - 浮动元素，也就是 `float` 不为 none 的原素。
 - `overflow`不为 visible 的原色，如 hidden，auto ，scroll。
 - `display: inline-block;display: flex;dispaly: table-cell`原素。
 
 #### 3. 具有 BFC 特性的元素有什么特点以及能解决什么问题
 
-	##### 	3.1 同一个 BFC 元素内部的元素上下外边距 margin 会发生塌陷
+##### 3.1 同一个 BFC 元素内部的元素上下外边距 margin 会发生塌陷
 
 ```html
 <body>
@@ -117,4 +117,3 @@ div {
 显示效果如下所示：
 
 ![](./asset/iamges/css/一边固定一边自适应.png)
-
