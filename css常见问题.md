@@ -42,7 +42,7 @@ div {
 
 我们会发现，两个 `div` 元素上下之间的外间距并不是 200px，而是只有 100px， 这是因为 `body`本身是一个 BFC 元素，所以其内部的 div 上下方向的外边距会发生塌陷，只会取其最大值。这并不是一个 bug，可以理解为 css 的一个规范。显示效果如图所示：
 
-![](\asset\iamges\css\外边距塌陷.png)
+![](./asset/iamges/css/外边距塌陷.png)
 
 
 
@@ -77,7 +77,7 @@ div {
 
 显示效果如图所示：
 
-![](\asset\iamges\css\解决外边距塌陷问题.png)
+![](./asset/iamges/css/解决外边距塌陷问题.png)
 
 
 
@@ -95,7 +95,7 @@ div {
 
 效果如下图所示：
 
-![](\asset\iamges\css\清除浮动.png)
+![](./asset/iamges/css/清除浮动.png)
 
 
 
@@ -116,4 +116,5 @@ div {
 
 显示效果如下所示：
 
-![](\asset\iamges\css\一边固定一边自适应.png)
+![](./asset/iamges/css/一边固定一边自适应.png)
+
